@@ -372,19 +372,8 @@
     box-shadow:inset 0 0 0 1px var(--gold);
   }
   .opt-letter{
-    flex:none;
-    width:20px;height:20px;
-    border-radius:50%;
-    border:1.5px solid var(--ink-soft);
-    display:flex; align-items:center; justify-content:center;
-    font-size:11px; font-weight:700;
-    color:var(--ink-soft);
-    transition:background .15s, border-color .15s, color .15s;
+    display:none;
   }
-  .opt.selected .opt-letter{
-    background:var(--gold); border-color:var(--gold); color:#fff;
-  }
-  .opt.multi.selected .opt-letter{border-radius:6px;}
 
   /* TRUE/FALSE */
   .tf-row{display:flex; gap:10px; margin-top:2px;}
